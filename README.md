@@ -262,6 +262,15 @@ backup periodically. If `FREEAPI_DB_BACKUP_KEY` is omitted, the app uses
 
 More Docker operations and examples live in [docker/README.md](./docker/README.md).
 
+### MindFerry integration
+
+[MindFerry](https://github.com/innovatorslabsky/mindferry) is a self-hosted
+multi-AI chat platform (LibreChat fork) with a cross-provider conversation
+archive. It can use FreeLLMAPI as a single endpoint to access all your free
+providers — see the
+[MindFerry FreeLLMAPI guide](https://github.com/innovatorslabsky/mindferry/blob/main/docs/freellmapi.md)
+for a Docker Compose overlay that runs both side by side.
+
 ## Desktop app
 
 A native menu-bar app lives in [`desktop/`](./desktop): the entire router +
